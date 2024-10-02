@@ -38,7 +38,6 @@ ul li {
   display: flex;
   padding: 0 16px;
   font-size: 21.1px;
-  display: flex;
   justify-content: center;
   width: 70%;
   gap: 20px;
@@ -92,4 +91,64 @@ footer {
   padding: 6px;
   border-radius: 5px 5px 9px 9px;
   text-align: center;
+}
+@media (max-width:760px) {
+
+  nav{
+    width: 18rem;
+    display: block;
+  }
+  ul{
+    padding: 0 10px 10px 0;
+    margin: 10px 10px 0px -14px;
+    gap: 29px;
+  }
+  .logo img{
+    margin-left: 14%;
+    width: 60%;
+  }
+  ul li a{
+    font-size: 0.9rem;
+  }
+
+  .firstPara p {
+   width: 100rem;
+    font-size: 0.8rem;
+    justify-content: center;
+    line-height: 19px;
+    
+  }
+  .profileImage {
+    padding: 0 40px;
+    width: 20.1rem;
+    height: 7.8rem;
+  }
+  .profileImage img{
+    width: 6rem;
+  }
+  .secondPara p {
+    margin: 17px -10px 4px 20px ;
+    padding:0 -15rem 0px 10px ;
+    line-height: 19px;
+    font-size: 0.8rem;
+  }
+  .secondPara li {
+    padding: 0 18px;
+    font-size: 20px;
+  }
+  .secondPara li {
+    line-height: 18px;
+    padding: 0 41px;
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+  .video {
+    width: 96%;
+    margin-left: 10px;
+    height: 13rem;
+  }
+  .video iframe {
+    width: 84%;
+    height: 72%;
+  }
 }

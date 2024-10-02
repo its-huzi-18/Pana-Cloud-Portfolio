@@ -17,7 +17,6 @@ nav {
   width: 100%;
   display: flex;
 }
-
 ul {
   margin-left: 60px;
   margin-top: 60px;
@@ -52,4 +51,30 @@ footer {
   padding: 6px;
   border-radius: 6px 6px 9px 9px;
   text-align: center;
+}
+@media (max-width:760px) {
+  nav{
+    width: 18rem;
+    display: block;
+  }
+  ul{
+    padding: 0 10px 10px 0;
+    margin: 10px 10px 0px -14px;
+    gap: 29px;
+  }
+  .logo img{
+    margin-left: 14%;
+    width: 60%;
+  }
+ ul li a{
+    font-size: 0.9rem;
+  }
+  .image{
+    margin-top: 26px;
+    height: 12rem;
+  }
+  p {
+    font-size:1rem;
+    line-height:26px;
+  }
 }
